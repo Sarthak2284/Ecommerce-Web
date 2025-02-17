@@ -53,6 +53,24 @@ import p_img49 from './p_img49.png'
 import p_img50 from './p_img50.png'
 import p_img51 from './p_img51.png'
 import p_img52 from './p_img52.png'
+import p_img53 from './p_img53.png'
+import p_img54 from './p_img54.png'
+import p_img55 from './p_img55.png'
+import p_img56 from './p_img56.png'
+import p_img57 from './p_img57.png'
+import p_img58 from './p_img58.png'
+import p_img59 from './p_img59.png'
+import p_img60 from './p_img60.png'
+import p_img61 from './p_img61.png'
+import p_img62 from './p_img62.png'
+import p_img63 from './p_img63.png'
+import p_img64 from './p_img64.png'
+import p_img65 from './p_img65.png'
+import p_img66 from './p_img66.webp'
+import p_img67 from './p_img67.jpg'
+import p_img68 from './p_img68.png'
+import p_img69 from './p_img69.jpg'
+import p_img70 from './p_img70.webp'
 
 
 import logo from './logo.png'
@@ -718,6 +736,233 @@ export const products = [
         sizes: ["S", "M", "L", "XL"],
         date: 1716668445448,
         bestseller: false
+    },
+    {
+        _id: "aaaca",
+        name: "Marvel Fan Collection Scents Black Panther Edition",
+        description: "Experience Marvel's Black Panther Edition Scents - a bold, empowering fragrance inspired by the spirit of Wakanda. Just like its namesake, it's designed to evoke strength, elegance, and confidence, perfect for everyday wear or special occasions. Feel unstoppable with every spritz",
+        price: 350,
+        image: [p_img53],
+        category: "Men",
+        subCategory: "Scents",
+        sizes: ["S", "M", "L", "XL"],
+        date: 1716668445448,
+        bestseller: false
+    },
+    {
+        _id: "aaacb",
+        name: "Marvel Fan Collection Scents Iron Man Edition",
+        description: "Marvel's Iron Man Edition Scents exude power and sophistication. With bold, futuristic notes, this fragrance channels Tony Stark’s confidence and brilliance, making it the perfect scent for innovators and risk-takers",
+        price: 370,
+        image: [p_img54],
+        category: "Men",
+        subCategory: "Scents",
+        sizes: ["S", "M", "L", "XL"],
+        date: 1716668445448,
+        bestseller: false
+    },
+    {
+        _id: "aaacc",
+        name: "Marvel Fan Collection Scents Captain America Edition",
+        description: "Marvel's Captain America Edition Scents symbolize courage and integrity, capturing the essence of a true hero. With fresh, invigorating notes, this fragrance is perfect for those who stand tall in every battle and embrace strength with purpose.",
+        price: 360,
+        image: [p_img55],
+        category: "Men",
+        subCategory: "Scents",
+        sizes: ["S", "M", "L", "XL"],
+        date: 1716668445448,
+        bestseller: false
+    },
+    {
+        _id: "aaacd",
+        name: "Marvel Fan Collection Scents Captain Marvel Edition",
+        description: "Unleash your cosmic power with Marve’s Captain Marvel Edition Scents. Radiant and empowering, this fragrance embodies strength, independence, and resilience, ideal for those ready to soar beyond limits.",
+        price: 380,
+        image: [p_img56],
+        category: "Men",
+        subCategory: "Scents",
+        sizes: ["S", "M", "L", "XL"],
+        date: 1716668445448,
+        bestseller: false
+    },
+    {
+        _id: "aaacd",
+        name: "AIR MORE UPTEMPO LOW ",
+        description: "With high-flying basketball style and graffiti-inspired graphics, the Air More Uptempo is sure to turn heads on and off the court. This low-top version pairs Air cushioning and a padded collar so you feel as good as you look.",
+        price: 10999,
+        image: [p_img57],
+        category: "Men",
+        subCategory: "Shoes",
+        sizes: ["6", "7", "8", "9"],
+        date: 1716668445448,
+        bestseller: false
+    },
+    {
+        _id: "aaace",
+        name: "WMN'S AIR FORCE 1'07",
+        description: "The radiance lives on in the Nike Air Force 1 ’07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colors and the perfect amount of flash to make you shine. A subtle platform gives you just the right amount of height.",
+        price: 8500,
+        image: [p_img58],
+        category: "Women",
+        subCategory: "Shoes",
+        sizes: ["6", "7", "8", "9"],
+        date: 1716668445448,
+    },
+    {
+        _id: "aaacf",
+        name: "AIR JORDAN 1 HIGH OG",
+        description: "The Air Jordan 1 High OG is the ultimate high-performance basketball shoe. Crafted from the finest materials, it boasts a superior cushioning system, a streamlined design, and a responsive footplate that keeps you grounded. The shoe is perfect for the ultimate basketball player.",
+        price: 15999,
+        image: [p_img59],
+        category: "Men",
+        subCategory: "Shoes",
+        sizes: ["6", "7", "8", "9"],
+        date: 1716668445448,
+        bestseller: false
+    },
+    {
+        _id: "aaacf",
+        name: "AIR JORDAN 1 HIGH OG",
+        description: "The Air Jordan 1 High OG is the ultimate high-performance basketball shoe. Crafted from the finest materials, it boasts a superior cushioning system, a streamlined design, and a responsive footplate that keeps you grounded. Perfect for the ultimate basketball player.",
+        price: 15999,
+        image: [p_img59],
+        category: "Men",
+        subCategory: "Shoes",
+        sizes: ["6", "7", "8", "9"],
+        date: 1716668445448,
+        bestseller: false
+    },
+    {
+        _id: "aaacg",
+        name: "CHUCK 70 HIGH",
+        description: "A running shoe that combines comfort with performance. Featuring responsive cushioning, a flexible design, and enhanced traction, the Ultraboost 21 is ideal for athletes and casual runners alike.",
+        price: 12999,
+        image: [p_img60],
+        category: "Men",
+        subCategory: "Shoes",
+        sizes: ["7", "8", "9", "10", "11"],
+        date: 1716668445449,
+        bestseller: true
+    },
+    {
+        _id: "aaach",
+        name: "NIKE REACT INFINITY RUN",
+        description: "Designed for runners, this shoe delivers exceptional cushioning and stability. The React Infinity Run reduces impact while supporting longer, smoother strides.",
+        price: 11999,
+        image: [p_img61],
+        category: "Women",
+        subCategory: "Shoes",
+        sizes: ["5", "6", "7", "8"],
+        date: 1716668445450,
+        bestseller: true
+    },
+    {
+        _id: "aaaci",
+        name: "PUMA RS-X BOLD",
+        description: "Bold, vibrant, and designed for street style. With premium comfort and a sleek design, this shoe is perfect for making a statement in any casual setting.",
+        price: 8999,
+        image: [p_img62],
+        category: "Women",
+        subCategory: "Shoes",
+        sizes: ["6", "7", "8"],
+        date: 1716668445451,
+        bestseller: false
+    },
+    {
+        _id: "aaacj",
+        name: "REEBOK CLUB C 85 VINTAGE",
+        description: "A timeless classic, the Reebok Club C 85 Vintage features soft leather and a minimalist design for an effortlessly stylish look.",
+        price: 6999,
+        image: [p_img63],
+        category: "Men",
+        subCategory: "Shoes",
+        sizes: ["6", "7", "8", "9", "10"],
+        date: 1716668445452,
+        bestseller: true
+    },
+    {
+        _id: "aaack",
+        name: "NEW BALANCE 990v5",
+        description: "A premium lifestyle shoe with unmatched comfort. The 990v5 combines durability, cushioning, and stability for all-day wear.",
+        price: 17999,
+        image: [p_img64],
+        category: "Men",
+        subCategory: "Shoes",
+        sizes: ["7", "8", "9", "10", "11"],
+        date: 1716668445453,
+        bestseller: false
+    },
+    {
+        _id: "aaacl",
+        name: "CONVERSE CHUCK TAYLOR ALL STAR",
+        description: "An all-time classic, these iconic high-tops are a versatile addition to any wardrobe. Lightweight, durable, and effortlessly stylish.",
+        price: 4999,
+        image: [p_img65],
+        category: "Women",
+        subCategory: "Shoes",
+        sizes: ["5", "6", "7", "8"],
+        date: 1716668445454,
+        bestseller: true
+    },
+    {
+        _id: "aaacm",
+        name: "VANS OLD SKOOL KIDS",
+        description: "Classic Vans Old Skool shoes, scaled down for kids. Durable canvas, a padded collar, and a rubber outsole ensure comfort and traction for little ones on the go.",
+        price: 2999,
+        image: [p_img66],
+        category: "Kids",
+        subCategory: "Shoes",
+        sizes: ["3", "4", "5", "6"],
+        date: 1716668445455,
+        bestseller: false
+    },
+    {
+        _id: "aaacn",
+        name: "SKECHERS GO RUN FAST",
+        description: "A lightweight, cushioned running shoe for kids. Featuring Skechers' signature comfort, these shoes are perfect for all-day adventures.",
+        price: 3499,
+        image: [p_img67],
+        category: "Kids",
+        subCategory: "Shoes",
+        sizes: ["3", "4", "5", "6", "7"],
+        date: 1716668445456,
+        bestseller: true
+    },
+    {
+        _id: "aaaco",
+        name: "NIKE AIR FORCE 1 KIDS",
+        description: "Scaled-down Nike Air Force 1 shoes with a sleek, supportive fit. Perfect for style-conscious kids who need all-day comfort.",
+        price: 3999,
+        image: [p_img68],
+        category: "Kids",
+        subCategory: "Shoes",
+        sizes: ["4", "5", "6", "7"],
+        date: 1716668445457,
+        bestseller: false
+    },
+    {
+        _id: "aaacp",
+        name: "ADIDAS STAN SMITH",
+        description: "A legendary tennis-inspired shoe, the Stan Smith is known for its clean lines and simple yet timeless style. Ideal for any casual outfit.",
+        price: 7999,
+        image: [p_img69],
+        category: "Men",
+        subCategory: "Shoes",
+        sizes: ["6", "7", "8", "9", "10"],
+        date: 1716668445458,
+        bestseller: true
+    },
+    {
+        _id: "aaacq",
+        name: "ON CLOUD X",
+        description: "A lightweight, versatile running shoe designed for both comfort and performance. The On Cloud X is perfect for active individuals who value speed and style.",
+        price: 14999,
+        image: [p_img70],
+        category: "Women",
+        subCategory: "Shoes",
+        sizes: ["6", "7", "8", "9"],
+        date: 1716668445459,
+        bestseller: true
     }
 
 ]

@@ -1,9 +1,11 @@
-import React, {useState} from 'react'
+import React, {useContext, useState} from 'react'
 import logo from '../assets/logo.svg';
 import search from '../assets/search.svg';
 import { Link, NavLink } from 'react-router-dom';
+import { ShopContext } from '../context/ShopContext';
 const Navbar = () => {
     const [visible, setVisible] = useState(false);
+    const {setShowSearch} = useContext(ShopContext)
   return (
     <div className='flex items-center justify-between py-5 font-medium'>
         
@@ -28,7 +30,7 @@ const Navbar = () => {
         </ul>
 
         <div className='flex items-center gap-6'>
-            <img src={search}  className='w-5 cursor-pointer' alt=''/>
+            <img onClick={()=>setShowSearch(true)} src={search}  className='w-5 cursor-pointer' alt=''/>
             <div className='group relative'>
                <img src="https://cdn-icons-png.flaticon.com/128/1077/1077063.png" className="w-6 cursor-pointer" alt=""  /> 
                <div className='group-hover:block hidden absolute dropdown-menu right-0 pt-4'>
