@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className='flex items-center justify-between py-5 font-medium'>
         
-        <img src={logo} alt="logo" srcset="" className='w-40'/>
+        <Link to='/'><img src={logo} alt="logo" srcset="" className='w-40'/></Link>
         <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
             <NavLink to= '/' className='flex flex-col items-center uppercase gap-1'>
                 <p>Home</p>
@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className='flex items-center gap-6'>
             <img src={search}  className='w-5 cursor-pointer' alt=''/>
             <div className='group relative'>
-               <img src="https://cdn-icons-png.flaticon.com/128/1077/1077063.png" className="w-6 cursor-pointer" alt="" srcset="" /> 
+               <img src="https://cdn-icons-png.flaticon.com/128/1077/1077063.png" className="w-6 cursor-pointer" alt=""  /> 
                <div className='group-hover:block hidden absolute dropdown-menu right-0 pt-4'>
                 <div className='flex flex-col gap w-36 py-3 px-5 bg-slate-100 text-gray-500 rounded'>
                     <p className='cursor-pointer hover:text-black'>My Profile</p>
